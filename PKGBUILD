@@ -1,4 +1,3 @@
-# $Id$
 # Maintainer: Oliver Bestwalter <oliver@bestwalter.de>
 pkgname=i3configger
 pkgver=0.7.5
@@ -6,7 +5,6 @@ pkgrel=1
 pkgdesc='i3 config manipulation tool'
 arch=('any')
 url='http://oliver.bestwalter.de/i3configger/'
-makedepends=('python' 'python-setuptools')
 # python-docutils is a actually python-daemon dependency (bug already filed)
 depends=('python' 'python-setuptools' 'python-psutil' 'python-daemon' 'python-docutils')
 license=('MIT')
