@@ -3,5 +3,9 @@
 !.gitignore
 !.SRCINFO
 !PKGBUILD
-!Vagrantfile
+
+# Additional files
 !README.md
+!Vagrantfile
+!prepare.sh
+!build.sh

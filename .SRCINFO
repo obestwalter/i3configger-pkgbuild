@@ -1,10 +1,13 @@
-pkgbase = python-i3configger
+pkgbase = i3configger
 	pkgdesc = i3 config manipulation tool
 	pkgver = 0.7.1
-	pkgrel = 1
+	pkgrel = 2
 	url = http://oliver.bestwalter.de/i3configger/
 	arch = any
 	license = MIT
+	makedepends = python
+	makedepends = python-setuptools
+	depends = python
 	depends = python-setuptools
 	depends = python-psutil
 	depends = python-daemon
@@ -12,5 +15,5 @@ pkgbase = python-i3configger
 	source = https://pypi.io/packages/source/i/i3configger/i3configger-0.7.1.tar.gz
 	sha256sums = d06819771438d48966ad7c138dc3332b4edeffd432956d8ae4f71873629183bf
 
-pkgname = python-i3configger
+pkgname = i3configger
 
