@@ -1,4 +1,4 @@
-# python-i3configger-pkgbuild
+# i3configger-pkgbuild
 
 Vagrant powered PKGBUILD for i3configger Arch Linux package.
 
