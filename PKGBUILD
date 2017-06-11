@@ -1,8 +1,8 @@
 # $Id$
 # Maintainer: Oliver Bestwalter <oliver@bestwalter.de>
 pkgname=i3configger
-pkgver=0.7.1
-pkgrel=2
+pkgver=0.7.5
+pkgrel=1
 pkgdesc='i3 config manipulation tool'
 arch=('any')
 url='http://oliver.bestwalter.de/i3configger/'
@@ -11,7 +11,7 @@ makedepends=('python' 'python-setuptools')
 depends=('python' 'python-setuptools' 'python-psutil' 'python-daemon' 'python-docutils')
 license=('MIT')
 source=("https://pypi.io/packages/source/i/i3configger/i3configger-${pkgver}.tar.gz")
-sha256sums=('d06819771438d48966ad7c138dc3332b4edeffd432956d8ae4f71873629183bf')
+sha256sums=('1c1cd542f1a604ca1340cde47274ffff4de9fb1e16f1ac9ee55a060c2f228a3f')
 
 package() {
     cd "$srcdir"/i3configger-$pkgver

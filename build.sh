@@ -24,7 +24,7 @@ function check() {
     mkdir -p /home/vagrant/.config/i3
     touch /home/vagrant/.config/i3/config
     i3configger --version
-    i3configger
+    i3configger --i3-refresh-msg nop
 }
 
 clean
