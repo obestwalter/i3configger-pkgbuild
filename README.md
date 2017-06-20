@@ -2,7 +2,7 @@
 
 Vagrant powered PKGBUILD for i3configger Arch Linux package.
 
-**WIP - not in AUR or anywhere yet.**
+You can find this on https://aur.archlinux.org/
 
 ## Create a new package
 
